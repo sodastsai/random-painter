@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 extern NSNotificationName const WindowControllerRectanglesCountDidChange;
 
 @interface WindowController : NSWindowController
@@ -17,3 +19,5 @@ extern NSNotificationName const WindowControllerRectanglesCountDidChange;
 @property (nonatomic) NSInteger rectanglesCount;
 
 @end
+
+NS_ASSUME_NONNULL_END
